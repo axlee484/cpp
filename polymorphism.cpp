@@ -22,13 +22,14 @@ public:
     void dog_bark() { std::cout << "woof"; }
 };
 
-void caller(Animal &animal)
+void caller(Animal& animal)
 {
     animal.hello();
 }
 
 int main()
 {
-    Dog *animal = new Dog();
-    animal->hello();
+    Dog d;
+    Animal ad;
+
 }
